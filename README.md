@@ -9,7 +9,7 @@ Begin by preprocessing the data to use in a Neural Network Model. Next, compile,
 
 ### Data Preprocessing
 -	What variable(s) are considered the target(s) for your model?
-    - The target for the model is the ‘IS_SUCCESSFUL’ column
+    - The target for the model is the ‘IS_SUCCESSFUL’ column.
 
 -	What variable(s) are to be the features for your model?
     - 'APPLICATION_TYPE',
