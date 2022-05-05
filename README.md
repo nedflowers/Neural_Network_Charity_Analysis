@@ -40,5 +40,5 @@ Begin by preprocessing the data to use in a Neural Network Model. Next, compile,
 
 ## Summary
 
-Overall, the model failed to reach over 73% accuracy in any of my attempts at optimization. I thought binning the “ASK_AMT” column would be helpful in reducing noisy variables. Though binning helped, it did not significantly affect the outcome of the model. If we were to run the model for more epochs, we may reach a number closer to 75%, but that will take time, create further training loss, and take up more memory. 
+Overall, the model failed to reach over 73% accuracy in any of my attempts at optimization. I thought binning the 'ASK_AMT' column would be helpful in reducing noisy variables. Though binning helped, it did not significantly affect the outcome of the model. If we were to run the model for more epochs, we may reach a number closer to 75%, but that will take time, create further training loss, and take up more memory. 
 Since the model’s purpose is to predict and categorize if a charity organization’s funding request is approved or not, we are looking at a binary solution. This means we can use a supervised machine learning model like Random Forest Classifier to generate decision trees and compare the performance to our Neural Network model. 
